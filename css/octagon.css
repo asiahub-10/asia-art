@@ -1,0 +1,152 @@
+/**
+ * Octagon
+ */
+.octagon {
+  position: relative;
+  width: 600px;
+  height: 600px;
+  margin: 100px auto;
+  overflow: hidden;
+}
+
+.octagon img {
+  display: none;
+}
+
+.octagon .o {
+  display: block;
+}
+
+
+/*
+  Octagons
+*/
+
+.o {
+  position: absolute;
+  background-attachment: fixed;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+.o-shape {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.o-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  opacity: .0;
+  width: 100%;
+  height: 100%;
+}
+
+.o-title {
+  color: #fff;
+
+  font-size: 100px;
+  font-family: impact;
+  letter-spacing: 45px;
+  line-height: 410px;
+  text-align: center;
+  text-transform: uppercase;
+
+  margin-left: -20px;
+  position: relative;
+  z-index: 200;
+}
+
+.o-title span {
+  margin-top: 65px;
+  left: 30px;
+
+  letter-spacing: 35px;
+
+  width: 100%;
+  font-size: 20px;
+  font-family: arial;
+  display: block;
+  position: absolute;
+}
+
+
+/* Fisrt Part 1 - 4 */
+
+.o-0 {
+  clip-path: polygon(300px 300px, 200px 400px, 400px 400px);
+}
+
+.o-1 {
+  clip-path: polygon(300px 300px, 400px 400px, 400px 200px);
+}
+
+.o-2 {
+  clip-path: polygon(300px 300px, 200px 200px, 400px 200px);
+}
+
+.o-3 {
+  clip-path: polygon(300px 300px, 200px 200px, 200px 400px);
+}
+
+
+/* Second Part 5 - 8 */
+
+.o-4 {
+  clip-path: polygon(300px 600px, 200px 400px, 400px 400px);
+}
+
+.o-5 {
+  clip-path: polygon(600px 300px, 400px 400px, 400px 200px);
+}
+
+.o-6 {
+  clip-path: polygon(300px 0, 200px 200px, 400px 200px);
+}
+
+.o-7 {
+  clip-path: polygon(0 300px, 200px 400px, 200px 200px);
+}
+
+/* Second Part 9 - 16 */
+
+.o-8 {
+  clip-path: polygon(300px 600px, 400px 400px, 500px 500px);
+}
+
+.o-9 {
+  clip-path: polygon(500px 500px, 400px 400px, 600px 300px);
+}
+
+.o-10 {
+  clip-path: polygon(600px 300px, 400px 200px, 500px 100px);
+}
+
+.o-11 {
+  clip-path: polygon(300px 0, 400px 200px, 500px 100px);
+}
+
+.o-12 {
+  clip-path: polygon(100px 100px, 200px 200px, 300px 0);
+}
+
+.o-13 {
+  clip-path: polygon(100px 100px, 0 300px, 200px 200px);
+}
+
+.o-14 {
+  clip-path: polygon(0 300px, 100px 500px, 200px 400px);
+}
+
+.o-15 {
+  clip-path: polygon(200px 400px, 100px 500px, 300px 600px);
+}
+
