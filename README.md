@@ -1,5 +1,6 @@
 # asia-art
-This is a multiple pages responsive front end template on interior design and home decoration. This website is design by: 
+This is a multiple pages responsive front end template on interior design and home decoration.
+This website is designed by: 
 - HTML
 - CSS
 - JavaScript
